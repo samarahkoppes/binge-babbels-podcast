@@ -248,6 +248,10 @@ gap: 2rem;
   
 }
 
+.overons-section div p {
+  width: 100ch;
+}
+
 
 .foto-overons-home{
   width:30%;
@@ -287,6 +291,7 @@ iframe{
 .tussenblok-actie h2{
   font-size: 4rem;
   line-height: 4rem;
+  width: 14ch;
   
 }
 
