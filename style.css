@@ -1,0 +1,531 @@
+body {
+    margin: 0;
+    width: 100%;
+    background-image: linear-gradient(
+      to right,
+      rgb(19, 19, 41),
+      rgb(36, 36, 81),
+      rgb(19, 19, 41)
+    );
+  }
+
+  main section {
+    padding: 4em 4em 0em 4em;
+  }
+
+  main section section {
+    padding: 0 0em;
+  }
+
+  /*navigatie*/
+
+  header {
+    display: flex;
+    padding: 0 4em;
+    background-color: white;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: "Bungee", sans-serif;
+    gap: 2rem;
+    justify-content: space-between;
+  
+
+  }
+
+header img{
+    width: 10em;   
+}
+
+
+
+  header li {
+    height: 5rem;
+    list-style: none;
+    line-height: 5rem;
+    padding: 0.5em;
+  }
+
+  header ul {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+  }
+
+  header li a {
+    color: rgb(19, 19, 41);
+    text-decoration: none;
+  }
+  
+  header li a:hover {
+    color: rgb(255, 255, 255);
+  }
+
+  header li:hover{
+    background-color:rgb(19, 19, 41);  
+  }
+
+  header li:hover a{
+    color:white ;
+  }
+
+
+
+
+ /*header*/
+
+
+  h1 {
+    font-size: 9vw;
+    font-family: "Bungee", sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0em;
+    line-height: 9vw;
+  }
+
+  .podcast-titel {
+    display: flex;
+    background-image: url(images/patroon2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+ /*nieuwste aflevering*/
+
+  h2 {
+    font-size: 3vw;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: left;
+
+    line-height: 1em;
+  }
+
+
+  section a {
+    border: 0.1rem solid white;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+section p {
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
+  }
+
+   /*nieuwste aflevering blokken*/
+
+
+ 
+.aflevering {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content:center ;
+    align-items: center;
+  }
+
+
+article {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  padding: 2em;
+  border-radius: 1em;
+  color: black;
+  width: 46em;
+  gap:2em;
+ 
+}
+
+article p {
+    color: black;
+}
+
+article ul{
+    padding: 0rem;
+  }
+
+
+  article li{
+    list-style-type: none;
+  }
+
+article img {
+    width: 15em;
+  }
+.playlijn{
+width: 100%;
+
+}
+/* 
+.aflevering article{
+    width: 30em;
+} */
+.best-beluisterd-tegel article{
+   display: flex;
+   flex-direction: column;
+   width: 20em;
+   justify-content: center;
+}
+
+.nieuwste-afleveringen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best-beluisterd article img {
+    width: 15em;
+  }
+
+
+
+
+
+/* .aflevering-tumbnail { 
+    width: 15em;
+  } */
+
+.tumbnail { 
+    width: 15em;
+  }
+
+.playknop{
+    width: 5em;
+}
+
+.bestbeluisterd div {
+    display: flex;
+}
+
+.titel-nieuwe{
+    font-family: "Bungee", sans-serif;
+    text-align:left;
+}
+
+.best-beluisterd-tegel{
+display: flex;
+justify-content: start;
+flex-wrap: wrap;
+align-items: center;
+gap: 2rem;
+/* padding-right: 2rem; */
+
+}
+
+
+
+
+
+
+/*overons-homepgae*/
+
+
+
+.overons-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+  background-color: rgb(49, 49, 101);
+  margin-top: 5rem;
+  line-height: 2rem;
+  flex-wrap: wrap;
+  
+  
+}
+
+
+.foto-overons-home{
+  width:30%;
+
+}
+
+/*overons-pagina-tussenblok*/
+
+
+iframe{
+  height: 30rem;
+  width: 50rem;
+  
+}
+
+
+
+.tussenblok-actie{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7rem;
+  background-color: rgb(49, 49, 101);
+  margin-top: 5rem;
+  line-height: 2rem;
+  flex-wrap: wrap;
+  
+}
+
+
+.tussenblok-actie img{
+  height: 30rem;
+}
+
+
+
+.tussenblok-actie h2{
+  font-size: 4rem;
+  line-height: 4rem;
+  
+}
+
+.merchandise p{
+  text-align: center;
+  line-height:0rem;
+  font-size: 2em;
+}
+
+.mock-kockup{
+  height: auto;
+}
+
+
+
+
+
+.titel-bestbeluisterd{
+    text-align: center;
+} */
+
+
+.best-beluisterd-tegel article{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+   
+
+
+}
+   
+.playlijn2{
+    width: 20em;
+}
+
+
+/*formulier*/
+
+/*bron formulier:https://www.w3schools.com/howto/howto_css_contact_form.asp */
+
+.formulier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formulier p {
+  font-family: 'Radio Canada';
+}
+
+
+
+label {
+  font-family: "Bungee", sans-serif;
+  color: rgb(19, 19, 41);
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+/*afleveringen pagina*/
+
+/*header*/
+
+.afleveringen-header {
+    display: flex;
+    background-image: url(images/aflleveringen-slinger.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 30em;
+    justify-content: center;
+    align-items: start;
+  }
+
+
+section ul{
+    list-style-type: none;
+    /* color: white; */
+    
+    font-size: 1rem;
+
+
+}
+section li{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+
+.afleveringen-genres {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Bungee", sans-serif;
+  list-style: none;
+}
+
+.afleveringen-genres ul {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+}
+
+.afleveringen-genres ul li {
+  padding: .3rem;
+}
+
+.over-ons-header {
+  display: flex;
+  background-image: url(images/aflleveringen-slinger.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 30em;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 2rem;
+  gap: 8rem;
+  
+  
+}
+
+.overons-tekst {
+  font-size: 1.5vw;
+  line-height: 2vw;
+}
+
+.overons-foto {
+  height: 30vw;
+  align-items: end;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+.titel-apps {
+  color:white;
+  font-family: "Bungee", sans-serif;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.apps {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: end;
+  margin: 70px;
+}
+
+
+
+.overons-merchandise{
+  height: 20rem;
+  width: 20rem;
+}
+
+
+.Mockup-titel{
+  font-size: 1.2em;
+  font-family: "Bungee", sans-serif;
+  align-items: center;
+}
+
+.knop-bestellen{
+  color:rgb(34,32,99);
+  border-color: rgb(34,32,99);
+  align-items: start;
+  border-radius:1rem;
+  padding: 1rem;
+}
+
+/*footer*/
+
+footer{
+  /* width: 100%; */
+  height: 8em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 3em;
+  padding: 4em 4em 4em 4em;
+  margin-top: 4em;
+    background-color:rgb(19, 19, 41);
+}
+
+
+footer img{
+  height: 40%;
+  
+  
+}
+
+footer ul{
+    list-style-type: none;
+    color: white;
+  font-family: 'Quicksand';
+
+}
